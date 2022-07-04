@@ -595,3 +595,7 @@ footer .copyright {
   padding: 2rem 0;
   font-size: 0.8rem;
 }
+
+footer h3 {
+  color: var(--color-primary);
+}
