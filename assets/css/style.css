@@ -362,9 +362,6 @@ section.skills .skill .head .left {
   gap: 1rem;
 }
 
-section.skills .skill .items {
-  display: none;
-}
 
 /* for javascript show/hide items */
 section.skills .container .skill .items.show-items {
@@ -406,16 +403,24 @@ section.skills .item .progress-bar {
 
 section.skills .item .progress {
   height: 100%;
-  width: 92%;
+  width: 80%;
   background: var(--color-primary);
 }
 
 section.skills .item:nth-child(2) .progress {
-  width: 88%;
+  width: 73%;
 }
 
 section.skills .item:nth-child(3) .progress {
-  width: 75%;
+  width: 70%;
+}
+
+section.skills .item:nth-child(4) .progress {
+  width: 71%;
+}
+
+section.skills .item:nth-child(5) .progress {
+  width: 65%;
 }
 
 /* ======================= SERVICES ========================= */
